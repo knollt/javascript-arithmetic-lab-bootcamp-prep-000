@@ -30,7 +30,7 @@ function makeInt(n){
 }
 
 function makeInt(n){
-  parseInt (n) 
+  parseInt (n, 16) 
   return n
 }
 
