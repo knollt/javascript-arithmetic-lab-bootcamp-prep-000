@@ -30,7 +30,8 @@ function makeInt(n){
 }
 
 function makeInt(n){
-  parseInt (n, 16) 
+  let n2 = parseFloat(n)
+  parseInt (n2, 10) 
   return n
 }
 
