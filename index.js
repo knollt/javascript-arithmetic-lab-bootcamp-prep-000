@@ -32,7 +32,7 @@ function makeInt(n){
 function makeInt(n){
   let n2 = parseFloat(n)
   parseInt (n2, 10) 
-  return n
+  return n2
 }
 
 function preserveDecimal(n){
